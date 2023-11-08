@@ -1,0 +1,13 @@
+[package]
+name = "gamebox-wgpu"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+gamebox = { git = "https://github.com/jussyDr/gamebox.git" }
+wgpu = "0.18.0"
+
+[dev-dependencies]
+env_logger = "0.10.0"
+pollster = "0.3.0"
+winit = { version = "0.29.3", features = ["rwh_05"] }
