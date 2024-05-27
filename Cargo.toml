@@ -5,6 +5,7 @@ edition = "2021"
 
 [dependencies]
 bytemuck = { version = "1.16.0", features = ["derive"] }
+ddsfile = "0.5.2"
 gamebox = { git = "https://github.com/jussyDr/gamebox" }
 wgpu = "0.20.0"
 
